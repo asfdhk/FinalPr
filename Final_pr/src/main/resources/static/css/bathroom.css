@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+/* Стилі для форми */
+form {
+    margin-top: 20px;
+}
+
+/* Стилі для текстових полів та міток */
+label, input[type="text"], select {
+    margin-bottom: 10px;
+}
+
+/* Стилі для кнопки "Submit" */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Змінити вигляд кнопки при наведенні */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
